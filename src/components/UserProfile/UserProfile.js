@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './UserProfile.css'; // 스타일 파일 연결
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import './UserProfile.css';
 
 const UserProfile = () => {
   const [userInfo, setUserInfo] = useState({
