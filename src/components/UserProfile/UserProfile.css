@@ -1,0 +1,148 @@
+.userProfile {
+    margin-top: 3px; 
+    margin-bottom: 80px;
+    width: 1200px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.userProfile > h3 {
+    text-align: left; 
+    margin-left: 75px; 
+}
+
+.userProfileContainer {
+    margin: auto;
+}
+
+.userProfileContainer {
+    border: 1px solid #000000;
+    border-radius: 2px;
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    align-items: start; 
+}
+
+.userProfile_name {
+    border: 1px solid #888888;
+    border-radius:  15px;
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    flex-basis: 100%; 
+    gap: 30px;
+}
+
+.userProfile_name .defaultPhoto {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.defaultPhoto {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px; 
+    background-color: #f0f0f0;
+    margin-bottom: 20px; 
+}
+
+.userInfoGroup {
+    display: flex;
+    flex-direction: column;
+    padding: 10px; 
+}
+  
+.userInfoRow {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 5px;
+    width: 300px;
+}
+
+.userInfoRow h4 {
+    margin: auto;
+}
+
+.userInfoRow_changepwd h4 {
+    flex-grow: 1;
+}
+
+.userInfoRow_changepwd {
+    display: flex;
+    cursor: pointer;
+}
+
+.userInfo {
+    border: 1px solid #888888;
+    border-radius:  15px;
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.userInfoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 950px;
+}
+
+.userInfoHeader button {
+    border-radius: 5px;
+    border: 0px solid #888888;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.userProfileContainer h3 {
+    margin-left: 40px;
+}
+
+.basicInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 50px;
+}
+
+.userInfoRow_changepwd h4 {
+    margin: auto;
+}
+
+.userProfile_personalcolor,
+.userProfile_recommendation {
+    border: 1px solid #888888;
+    border-radius:  15px;
+    width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.userProfile_personalcolorselect,
+.userProfile_write {
+  display: flex;
+  align-items: center; 
+  margin-top: -30px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.userProfile_personalcolorselect h4,
+.userProfile_personalcolorselect span,
+.userProfile_write span {
+  margin-right: 8px; 
+}

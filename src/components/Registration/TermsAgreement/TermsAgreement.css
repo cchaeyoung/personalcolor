@@ -1,0 +1,118 @@
+.terms_container {
+  width: 600px;
+  height: 470px;
+  margin: 70px auto;
+  padding: 20px;
+  background: #FFF5ED;
+  border: 1px solid #000000;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.terms_container .icon_container {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: -10px;
+}
+
+.terms_container .icon-wrapper_terms_terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px; 
+  height: 45px; 
+  background-color: #FFA572; 
+  border-radius: 50%; 
+  color: #000000; 
+}
+
+.terms_container .terms_conditions {
+  color: #fe995f; 
+  font-size: 20px;
+  margin: -25px -2px -25px;
+}
+
+.terms_container .icon-wrapper_info_terms,
+.terms_container .icon-wrapper_complete_terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px; 
+  height: 45px; 
+  background-color: #d9d9d9; 
+  border-radius: 50%; 
+  color: #000000; 
+}
+
+.terms_container .info_submission,
+.terms_container .registration_complete {
+  color: #585858; 
+  font-size: 20px;
+  margin: -25px -2px -25px;
+}
+
+.terms_container .allagreed_container {
+  background-color: #FFE2CE;
+  width: 520px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  overflow: auto;
+  align-items: center;
+}
+
+.terms_container .agreed_container {
+  background-color: #FEFEFE;
+  width: 520px;
+  height: 170px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.terms_container input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.terms_container .allagreed_container input, 
+.terms_container .consent_group_three input,
+.terms_container .consent_group_two input {
+  width: 20px;
+  margin-top: 6px;
+}
+
+.terms_container .allagreed_container label,
+.terms_container .consent_group_three label,
+.terms_container .consent_group_two label {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  margin-left: 40px;
+  gap: 5px;
+}
+
+.terms_container .consent_group_three label,
+.terms_container .consent_group_two label {
+  margin-bottom: -10px;;
+}
+
+.terms_container button {
+  background-color: #909090;
+  cursor: pointer;
+  width: 270px;
+  height: 45px;
+  border: 1px solid #7B7B7B;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: -5px;
+}
