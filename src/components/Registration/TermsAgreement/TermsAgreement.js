@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHandshake, faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { faHandshake } from '@fortawesome/free-regular-svg-icons';
+import { faUser, faCheck } from '@fortawesome/free-solid-svg-icons';
 import './TermsAgreement.css';
 
 function TermsAgreement({ onNext }) {
